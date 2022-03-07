@@ -1,0 +1,20 @@
+# Ejercicio 15
+a = int(input("Ingrese un número: "))
+b = int(input("Ingrese otro número: "))
+def mcm(a, b):
+  x = max(a, b)
+  while True:
+    if (x % a == 0) and (x % b == 0):
+      return x
+    x += 1
+print("mcm: ", mcm(a, b))      
+def MCD(a, b):
+  MCD = 1
+  if a % b == 0:
+    return b
+  for k in range(int(b / 2), 0, -1):
+    if a % k == 0 and b % k == 0:
+      MCD = k
+      break
+  return MCD   
+print("MCD: ", MCD(a, b)) 
