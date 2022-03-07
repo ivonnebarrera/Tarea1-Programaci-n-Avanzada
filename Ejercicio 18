@@ -1,0 +1,14 @@
+# Ejercicio 18
+n = int(input("Ingrese un número entero positivo: "))
+def romano(entero):
+    num = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    numerales = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+    numeral = ''
+    i = 0
+    while entero > 0:
+        for _ in range(entero // num[i]):
+            numeral += numerales[i]
+            entero -= num[i]
+        i += 1
+    return numeral
+print(("El número ingresado {} se escribe en romano: {}").format (n, romano(n)))
