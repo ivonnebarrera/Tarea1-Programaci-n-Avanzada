@@ -1,0 +1,14 @@
+# Ejercicio 16
+a = int(input("Inicio de intervalo: "))
+b = int(input("Fin de intervalo: "))
+for i in range(a, b + 1, 1):
+  suma = 0
+  m = i
+  n = str(m)
+  l = len(n)
+  for x in n:
+    y = int(x)
+    potencia = pow(y, l)
+    suma = suma + potencia
+  if m == suma:
+    print(suma)
