@@ -1,0 +1,85 @@
+# Ejercicio 25
+cadena=(input("Ingrese una frase: "))
+
+cantidad_a = cadena.count('a')
+cantidad_b = cadena.count('b')
+cantidad_c = cadena.count('c')
+cantidad_d = cadena.count('d')
+cantidad_e = cadena.count('e')
+cantidad_f = cadena.count('f')
+cantidad_g = cadena.count('g')
+cantidad_h = cadena.count('h')
+cantidad_i = cadena.count('i')
+cantidad_j = cadena.count('j')
+cantidad_k = cadena.count('k')
+cantidad_l = cadena.count('l')
+cantidad_m = cadena.count('m')
+cantidad_n = cadena.count('n')
+cantidad_ñ = cadena.count('ñ')
+cantidad_o = cadena.count('o')
+cantidad_p = cadena.count('p')
+cantidad_q = cadena.count('q')
+cantidad_r = cadena.count('r')
+cantidad_s = cadena.count('s')
+cantidad_t = cadena.count('t')
+cantidad_u = cadena.count('u')
+cantidad_v = cadena.count('v')
+cantidad_w = cadena.count('w')
+cantidad_x = cadena.count('x')
+cantidad_y = cadena.count('y')
+cantidad_z = cadena.count('z')
+
+if cantidad_a != 0:
+  print('La cantidad de veces que aparece el carácter `a` dentro de la frase es igual a %i.' % (cantidad_a))
+if cantidad_b != 0:
+  print('La cantidad de veces que aparece el carácter `b` dentro de la frase es igual a %i.' % (cantidad_b))
+if cantidad_c != 0:
+  print('La cantidad de veces que aparece el carácter `c` dentro de la frase es igual a %i.' % (cantidad_c))
+if cantidad_d != 0:
+  print('La cantidad de veces que aparece el carácter `d` dentro de la frase es igual a %i.' % (cantidad_d))
+if cantidad_e != 0:
+  print('La cantidad de veces que aparece el carácter `e` dentro de la frase es igual a %i.' % (cantidad_e))
+if cantidad_f != 0:
+  print('La cantidad de veces que aparece el carácter `f` dentro de la frase es igual a %i.' % (cantidad_f))
+if cantidad_g != 0:
+  print('La cantidad de veces que aparece el carácter `g` dentro de la frase es igual a %i.' % (cantidad_g))
+if cantidad_h != 0:
+  print('La cantidad de veces que aparece el carácter `h` dentro de la frase es igual a %i.' % (cantidad_h))
+if cantidad_i != 0:
+  print('La cantidad de veces que aparece el carácter `i` dentro de la frase es igual a %i.' % (cantidad_i))
+if cantidad_j != 0:
+  print('La cantidad de veces que aparece el carácter `j` dentro de la frase es igual a %i.' % (cantidad_j))
+if cantidad_k != 0:
+  print('La cantidad de veces que aparece el carácter `k` dentro de la frase es igual a %i.' % (cantidad_k))
+if cantidad_l != 0:
+  print('La cantidad de veces que aparece el carácter `l` dentro de la frase es igual a %i.' % (cantidad_l))
+if cantidad_m != 0:
+  print('La cantidad de veces que aparece el carácter `m` dentro de la frase es igual a %i.' % (cantidad_m))
+if cantidad_n != 0:
+  print('La cantidad de veces que aparece el carácter `n` dentro de la frase es igual a %i.' % (cantidad_n))
+if cantidad_ñ != 0:
+  print('La cantidad de veces que aparece el carácter `ñ` dentro de la frase es igual a %i.' % (cantidad_ñ))
+if cantidad_o != 0:
+  print('La cantidad de veces que aparece el carácter `o` dentro de la frase es igual a %i.' % (cantidad_o))
+if cantidad_p != 0:
+  print('La cantidad de veces que aparece el carácter `p` dentro de la frase es igual a %i.' % (cantidad_p))
+if cantidad_q != 0:
+  print('La cantidad de veces que aparece el carácter `q` dentro de la frase es igual a %i.' % (cantidad_q))
+if cantidad_r != 0:
+  print('La cantidad de veces que aparece el carácter `r` dentro de la frase es igual a %i.' % (cantidad_r))
+if cantidad_s != 0:
+  print('La cantidad de veces que aparece el carácter `s` dentro de la frase es igual a %i.' % (cantidad_s))
+if cantidad_t != 0:
+  print('La cantidad de veces que aparece el carácter `t` dentro de la frase es igual a %i.' % (cantidad_t))
+if cantidad_u != 0:
+  print('La cantidad de veces que aparece el carácter `u` dentro de la frase es igual a %i.' % (cantidad_u))
+if cantidad_v != 0:
+  print('La cantidad de veces que aparece el carácter `v` dentro de la frase es igual a %i.' % (cantidad_v))
+if cantidad_w != 0:
+  print('La cantidad de veces que aparece el carácter `w` dentro de la frase es igual a %i.' % (cantidad_w))
+if cantidad_x != 0:
+  print('La cantidad de veces que aparece el carácter `x` dentro de la frase es igual a %i.' % (cantidad_x))
+if cantidad_y != 0:
+  print('La cantidad de veces que aparece el carácter `y` dentro de la frase es igual a %i.' % (cantidad_y))
+if cantidad_z != 0:
+  print('La cantidad de veces que aparece el carácter `z` dentro de la frase es igual a %i.' % (cantidad_z))
