@@ -1,0 +1,26 @@
+# Ejercicio 09
+num=int(input("Ingrese un número de máximo 4 cifras: "))
+if num >= 1000 and num <= 9999:
+  mil = num // 1000
+  tmp = num % 1000
+  centenas = tmp // 100
+  tmp = tmp % 100
+  decenas = tmp // 10
+  unidades = tmp % 10
+  resul = mil + centenas + decenas + unidades
+  print("El número {} : {} + {} + {} + {} = {}".format(num, mil, centenas, decenas, unidades, resul))
+elif num >= 100 and num <= 999:
+  centenas = num // 100
+  tmp = num % 100
+  decenas = tmp // 10
+  unidades = tmp % 10
+  resul = centenas + decenas + unidades
+  print("El número {} : {} + {} + {} = {}".format(num, centenas, decenas, unidades, resul))
+elif num >= 10 and num <= 99:
+  decenas = num // 10
+  tmp = num % 10
+  unidades = tmp % 10
+  resul = decenas + unidades
+  print("El número {} : {} + {} = {}".format(num, decenas, unidades, resul))
+elif num > 0 and num <= 9:
+  print("El número {} = {}".format(num, num))
