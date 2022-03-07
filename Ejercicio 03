@@ -1,0 +1,6 @@
+# Ejercicio 03
+año = int(input("Ingrese un año (4 digitos): "))
+if año % 4 == 0:
+  print(("El año %d que usted ingresó es un año bisiesto.") % (año))
+else:
+  print(("El año %d que usted ingresó no es un año bisiesto.") % (año))
