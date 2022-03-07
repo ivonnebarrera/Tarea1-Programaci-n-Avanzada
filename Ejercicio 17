@@ -1,0 +1,19 @@
+# Ejercicio 17
+numero=input("Ingrese un número:")
+suma=0
+lista=list(numero)
+largo=len(numero)
+while int(numero)>=suma:
+  suma=0
+  for i in range(0,largo,1) :
+    numeros2=int(lista[i])
+    suma=suma+numeros2
+    suma2=str(suma)
+  eliminar=lista.pop(0)
+  lista.append(suma2)
+  if suma2==numero:
+    print("Es número de Keith")
+    break
+  else:
+    print("No es número de Keith")
+    break
