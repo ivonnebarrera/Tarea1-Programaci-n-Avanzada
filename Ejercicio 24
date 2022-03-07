@@ -1,0 +1,8 @@
+# Ejercicio 24
+frase = input("Ingresar una frase menor a 100 caracteres para separarla por palabras: ")
+a = frase.split()
+largo1 = len(a)
+for k in range(0, largo1, 1):
+  union = ' '.join(a)
+  print(union)
+  eliminar = a.pop()
