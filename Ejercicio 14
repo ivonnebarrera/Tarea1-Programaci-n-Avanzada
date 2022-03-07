@@ -1,0 +1,11 @@
+# Ejercicio 14
+a = int(input("Ingrese el multiplicador: ")) 
+b = int(input("Ingrese el sesgo: "))
+m = int(input("Ingrese el módulo: "))
+Xn = int(input("Ingrese el número semilla: "))
+N = int(input("Ingrese el número de elementos: "))
+for n in range(0, N + 1, 1):
+  Xn = (a * Xn + b) % m
+  u = Xn / m
+  print("Xn + 1 = ", Xn)
+  print("U = ", u)
