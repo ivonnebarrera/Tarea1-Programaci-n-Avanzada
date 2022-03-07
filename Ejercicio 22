@@ -1,0 +1,12 @@
+# Ejercicio 22
+num = int(input("Ingrese un número: "))
+def Sundaram(num):
+  primo = []
+  primont = []
+  for i in range(2, num + 1, 1):
+    if i not in primont:
+      primo.append(i)
+      for k in range(i + i, num + 1,i):
+        primont.append(k)
+  return primo  
+print(Sundaram(num))  
