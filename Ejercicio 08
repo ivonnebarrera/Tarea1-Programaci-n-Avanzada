@@ -1,0 +1,4 @@
+# Ejercicio 08
+numero = input("Ingrese un número entero positivo: ")
+n = numero[::-1]
+print(n)
