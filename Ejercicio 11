@@ -1,0 +1,16 @@
+# Ejercicio 11
+n = input("Ingrese un código EAN-8 (8 digitos): ")
+num = str(n)
+suma = 0
+suma2 = 0
+for a in num:
+  b = int(a)
+  if b % 2 == 0:
+    suma = suma + b
+  elif b % 2 != 0:
+    suma2 = suma2 + b
+par = suma * 3
+resultado = suma2 + par
+div = resultado % 10
+total = 10 - div
+print("Código resultante = {} {}" .format(n, total)) 
