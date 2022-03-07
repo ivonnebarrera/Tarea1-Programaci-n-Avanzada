@@ -1,0 +1,17 @@
+# Ejercicio 13
+n = int(input("Ingrese un número para obtener la serie de Padovan: "))
+a = 1
+b = 1
+c = 1
+if n == 1:
+  print(a)
+elif n == 2:
+  print("{}, {}".format(a, b))
+elif n == 3:
+  print("{}, {}, {}".format(a, b, c))
+for i in range(3, n, 1):
+  f = a + b
+  a = b
+  b = c
+  c = f
+  print(f)
