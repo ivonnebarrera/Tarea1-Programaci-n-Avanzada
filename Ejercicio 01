@@ -1,0 +1,6 @@
+# Ejercicio 01
+N = int((input("Ingrese un número entero: ")))
+if N % 2 == 0:
+    print(("El número %d que usted ingresó es un número par.") % (N))
+else:
+    print(("El número %d que usted ingresó es un número impar.") % (N))
